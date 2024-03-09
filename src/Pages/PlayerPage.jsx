@@ -122,21 +122,11 @@ const PlayerPage = () => {
             <div className='text-green-500 text-xs'>Web Player (Chrome)</div>
           </div>
           <div className='flex space-x-5'>
-            <div className='relative cursor-pointer'>
-              <FontAwesomeIcon
-                icon={faShareNodes}
-                className='text-white text-xl cursor-pointer'
-              />
-              <div className='absolute select-none text-slate-900 text-5xl top-[-36px] left-[9px]'>
-                .
-              </div>
-              <div className='absolute select-none text-slate-900 text-5xl top-[-31px] left-[-1px]'>
-                .
-              </div>
-              <div className='absolute select-none text-slate-900 text-5xl top-[-26px] left-[9px] '>
-                .
-              </div>
-            </div>
+            <img
+              src='../../public/share.png'
+              alt=''
+              className='max-w-full h-5 invert cursor-pointer'
+            />
             <div className='space-y-[3px] flex flex-col items-center cursor-pointer'>
               <div className='w-5 h-2 border-2 rounded-md'></div>
               <div className='w-[1.1rem] border-2 rounded-sm'></div>
@@ -144,13 +134,49 @@ const PlayerPage = () => {
             </div>
           </div>
         </div>
-        <div className='size-[415px] border mt-6 p-5 rounded-2xl bg-[#ff00e4]'>
+        <div className='size-[415px] mt-6 p-5 rounded-2xl bg-[#ff00e4]  relative'>
+          <div className='w-[415px] h-24 absolute top-[4.5rem] left-1/2 -translate-x-1/2 bg-gradient-to-b from-[#ff00e4] to-transparent to-90%'></div>
           <div className='flex items-center justify-between'>
-            <p className='text-lg font-bold'>Lyrics</p>
-            <div className='w-20 flex items-center justify-between'>
-              <FontAwesomeIcon icon={faLanguage} />
-              <FontAwesomeIcon icon={faShareNodes} />
+            <p className='text-lg font-bold self-start z-10'>Lyrics</p>
+            <div className='w-36 flex items-center justify-between'>
+              <div className='relative cursor-pointer'>
+                <img
+                  src='../../public/translate.png'
+                  alt=''
+                  className='max-w-full h-5 invert z-10 absolute top-2 left-2'
+                />
+                <div className='size-9 rounded-full bg-black top-0 opacity-50'></div>
+              </div>
+              <div className='relative cursor-pointer'>
+                <img
+                  src='../../public/share.png'
+                  alt=''
+                  className='max-w-full h-5 invert z-10 absolute top-2 left-[0.4rem]'
+                />
+                <div className='size-9 rounded-full bg-black top-0 opacity-50'></div>
+              </div>
+              <div className='relative cursor-pointer'>
+                <img
+                  src='../../public/wide.png'
+                  alt=''
+                  className='max-w-full h-5 invert z-10 absolute top-2 left-2'
+                />
+                <div className='size-9 rounded-full bg-black top-0 opacity-50'></div>
+              </div>
             </div>
+          </div>
+          <div className='leading-normal flex flex-col justify-center mt-5 overflow-x-hidden'>
+            <p className='text-[2.20rem] font-bold'>思い出すのは君の歌</p>
+            <p className='text-[2.20rem] font-bold'>会話よりも鮮明だ</p>
+            <p className='text-[2.20rem] font-bold whitespace-nowrap '>
+              どこに行ってしまったの
+            </p>
+            <p className='text-[2.20rem] font-bold text-black'>
+              いつも探すんだよ
+            </p>
+            <p className='text-[2.20rem] font-bold text-black'>
+              思い出すのは君の歌
+            </p>
           </div>
         </div>
       </div>
