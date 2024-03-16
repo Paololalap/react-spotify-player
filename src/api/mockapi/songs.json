@@ -3,7 +3,7 @@
     "id": 1,
     "title": "タイムパラドックス",
     "artist": "Vaundy",
-    "plays": 12516243,
+    "plays": "12,516,243",
     "duration": "3:46",
     "cover": "album-cover-1.jpg"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Kaiju no Hanauta",
     "artist": "Vaundy",
-    "plays": 177858945,
+    "plays": "177,858,945",
     "duration": "3:44",
     "cover": "album-cover-2.jpg"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "踊り子",
     "artist": "Vaundy",
-    "plays": 136913741,
+    "plays": "136,913,741",
     "duration": "3:49",
     "cover": "album-cover-3.jpg"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Fukakoryoku",
     "artist": "Vaundy",
-    "plays": 126542347,
+    "plays": "126,542,347",
     "duration": "3:20",
     "cover": "album-cover-2.jpg"
   }
