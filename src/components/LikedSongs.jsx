@@ -18,6 +18,6 @@ const LikedSongs = () => {
       </span>
     </button>
   );
-}
+};
 
-export default LikedSongs
+export default LikedSongs;

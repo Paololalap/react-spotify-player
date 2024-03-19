@@ -6,11 +6,11 @@ const InstallAppButton = () => {
         alt=""
         className="hidden sm:block sm:h-[2rem] sm:max-w-full sm:border-solid sm:p-2 sm:invert"
       />
-      <span className="hidden sm:ml-[-3px] sm:block sm:pr-2 sm:text-[13px] sm:font-bold sm:leading-7">
+      <span className="hidden sm:ml-[-3px] sm:block sm:pr-2 sm:text-[13px] sm:font-bold sm:leading-7 sm:text-white">
         Install App
       </span>
     </button>
   );
-}
+};
 
-export default InstallAppButton
+export default InstallAppButton;

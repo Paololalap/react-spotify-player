@@ -1,5 +1,4 @@
 const Showcase = () => {
-  
   return (
     <section className="hidden sm:absolute sm:top-[12rem] sm:flex sm:h-[4rem] sm:w-full">
       <div className="hidden sm:ml-[16px] sm:block">
@@ -7,9 +6,9 @@ const Showcase = () => {
           <img
             src="verified.svg"
             alt=""
-            className="hidden sm:block sm:h-6 sm:max-w-full "
+            className="hidden sm:z-20 sm:block sm:h-6 sm:max-w-full"
           />
-          <div className="hidden sm:absolute sm:left-1 sm:top-1 sm:-z-10 sm:block sm:size-4 sm:rounded-full sm:bg-white"></div>
+          <div className="hidden sm:absolute sm:left-1 sm:top-1 sm:z-10 sm:block sm:size-4 sm:rounded-full sm:bg-white"></div>
           <div className="sm:text-md hidden sm:ml-2 sm:block sm:font-bold sm:text-white">
             Verified Artist
           </div>
@@ -26,6 +25,6 @@ const Showcase = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Showcase
+export default Showcase;

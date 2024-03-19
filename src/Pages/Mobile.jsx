@@ -12,7 +12,7 @@ import {
   faTv,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Mobile = ({className}) => {
+const Mobile = ({ className }) => {
   return (
     <div className={className}>
       <div className="mx-auto h-auto w-[415px]">
@@ -94,7 +94,7 @@ const Mobile = ({className}) => {
             />
           </div>
           <img
-            src="repeat.png"
+            src="repeat.svg"
             alt=""
             className="h-5 max-w-full cursor-pointer invert"
           />
@@ -164,15 +164,15 @@ const Mobile = ({className}) => {
         </div>
         <div className='mt-6 h-[440px] w-[415px] rounded-2xl bg-gray-800 bg-[url("https://popscene.jp/img/A_20230729.jpeg")] bg-contain bg-top bg-no-repeat p-5'>
           <div className="h-[257px]">
-            <p className="text-lg font-bold">About the artist</p>
+            <p className="text-lg font-bold text-white">About the artist</p>
           </div>
           <div className="">
             <div className="mt-3 flex items-center justify-between ">
               <div className="flex flex-col">
-                <p className="text-xl font-bold">Vaundy</p>
+                <p className="text-xl font-bold text-white">Vaundy</p>
                 <p className="text-gray-400">5.3M monthly listeners</p>
               </div>
-              <div className="cursor-pointer rounded-full border-2 p-2 px-4 font-bold transition-colors hover:bg-white hover:text-gray-800 ">
+              <div className="cursor-pointer rounded-full border-2 p-2 px-4 font-bold text-white transition-colors hover:bg-white hover:text-gray-800">
                 Following
               </div>
             </div>
@@ -186,15 +186,15 @@ const Mobile = ({className}) => {
         </div>
         <div className='mt-6 h-[24rem] w-[415px] rounded-2xl bg-gray-800 bg-[url("https://pbs.twimg.com/media/F2Nm5clbYAA9lzK.jpg")] bg-contain bg-top bg-no-repeat p-5'>
           <div className="h-[16.3rem]">
-            <p className="text-lg font-bold">Live Events</p>
+            <p className="text-lg font-bold text-white">Live Events</p>
           </div>
-          <p className="mt-3 text-xl font-bold">Vaundy</p>
+          <p className="mt-3 text-xl font-bold text-white">Vaundy</p>
           <div className="flex items-center justify-between">
             <div className="mt-3 leading-3">
-              <p className="">Mar 23 - May 6</p>
-              <p className="text-gray-400">7 events</p>
+              <p className="text-sm text-white">Mar 23 - May 6</p>
+              <p className="text-xs text-gray-400">7 events</p>
             </div>
-            <div className="-mt-8 cursor-pointer rounded-full border-2 p-2 px-4 font-bold transition-colors hover:bg-white hover:text-gray-800">
+            <div className="-mt-8 cursor-pointer rounded-full border-2 p-2 px-4 font-bold text-white transition-colors hover:bg-white hover:text-gray-800">
               Find tickets
             </div>
           </div>

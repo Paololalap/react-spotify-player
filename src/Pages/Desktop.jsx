@@ -13,6 +13,7 @@ import BellButton from "../components/BellButton";
 import ProfileButton from "../components/ProfileButton";
 import Showcase from "../components/Showcase";
 import SongList from "../components/SongList";
+import Player from "../components/Player";
 
 const Desktop = ({ className }) => {
   const [isPlayButtonClicked, setIsPlayButtonClicked] = useState(false);
@@ -67,7 +68,7 @@ const Desktop = ({ className }) => {
                   className="hidden sm:block sm:h-7 sm:max-w-full"
                 />
               </button>
-              <div className="hidden sm:block sm:h-8 sm:w-24 sm:cursor-pointer sm:rounded-full sm:border sm:border-opacity-50 sm:text-center sm:text-[0.80rem] sm:font-bold sm:leading-8 sm:transition-colors sm:hover:scale-[1.03] sm:hover:border-white">
+              <div className="hidden sm:block sm:h-8 sm:w-24 sm:cursor-pointer sm:rounded-full sm:border sm:border-opacity-50 sm:text-center sm:text-[0.80rem] sm:font-bold sm:leading-8 sm:text-white sm:transition-colors sm:hover:scale-[1.03] sm:hover:border-white">
                 Following
               </div>
 
@@ -77,7 +78,7 @@ const Desktop = ({ className }) => {
                   alt=""
                   className="hidden sm:block sm:size-8 sm:invert "
                 />
-                <span className="hidden sm:invisible sm:absolute sm:left-1/2 sm:top-[-15px] sm:z-10 sm:inline sm:w-auto sm:-translate-x-1/2 sm:-translate-y-full sm:whitespace-nowrap sm:rounded-[0.2rem] sm:bg-[#1f1f1f] sm:px-[0.4rem] sm:py-[0.1rem] sm:text-center sm:text-[13px] sm:font-[500] sm:opacity-0 sm:transition-opacity sm:delay-300 sm:group-hover:visible sm:group-hover:opacity-100">
+                <span className="hidden sm:invisible sm:absolute sm:left-1/2 sm:top-[-15px] sm:z-10 sm:inline sm:w-auto sm:-translate-x-1/2 sm:-translate-y-full sm:whitespace-nowrap sm:rounded-[0.2rem] sm:bg-[#1f1f1f] sm:px-[0.4rem] sm:py-[0.1rem] sm:text-center sm:text-[13px] sm:font-[500] sm:text-white sm:opacity-0 sm:transition-opacity sm:delay-300 sm:group-hover:visible sm:group-hover:opacity-100">
                   More options for Vaundy
                 </span>
               </div>
@@ -91,6 +92,7 @@ const Desktop = ({ className }) => {
           </div>
         </div>
       </MainContent>
+      <Player />
     </div>
   );
 };
