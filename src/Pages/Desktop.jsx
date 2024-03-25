@@ -24,7 +24,7 @@ const Desktop = ({ className }) => {
   return (
     <div className={className}>
       <Sidebar>
-        <div className="hidden sm:flex  sm:h-[7rem] sm:w-[4.5rem] sm:flex-col sm:items-center sm:justify-evenly sm:rounded-xl sm:bg-[#121212] ">
+        <div className="hidden sm:flex sm:h-[7rem] sm:w-[4.5rem] sm:flex-col sm:items-center sm:justify-evenly sm:rounded-xl sm:bg-[#121212] ">
           <HomeButton />
           <SearchButton />
         </div>
@@ -92,6 +92,7 @@ const Desktop = ({ className }) => {
           </div>
         </div>
       </MainContent>
+      
       <Player />
     </div>
   );

@@ -2,7 +2,7 @@ import songs from "../api/mockapi/songs";
 
 const SongList = () => {
   return (
-    <ul className="hidden sm:block sm:h-[18rem]">
+    <ul className="hidden sm:block">
       {songs.map((song) => (
         <li
           key={song.id}

@@ -31,9 +31,9 @@ const Mobile = ({ className }) => {
         </div>
         <img
           src="https://lastfm.freetls.fastly.net/i/u/ar0/41bf054f9ab8ba7e2e60be69368fef17.jpg"
-          className="mt-10  h-[415px] rounded-lg"
+          className="mt-10 h-[415px] rounded-lg"
         ></img>
-        <div className=" mt-6 flex items-center justify-between">
+        <div className="mt-6 flex items-center justify-between">
           <div className="flex flex-col">
             <div className="text-2xl font-bold text-white">
               Kaiju no Hanauta
@@ -43,7 +43,7 @@ const Mobile = ({ className }) => {
           <div>
             <FontAwesomeIcon
               icon={faMinus}
-              className="h-8 max-w-full scale-[0.6] cursor-pointer rounded-full p-2 px-[0.6rem] text-white ring-4 ring-white  transition-colors hover:border-0 hover:bg-white  hover:text-slate-900"
+              className="h-8 max-w-full scale-[0.6] cursor-pointer rounded-full p-2 px-[0.6rem] text-white ring-4 ring-white  transition-colors hover:border-0 hover:bg-white hover:text-slate-900"
             />
             <FontAwesomeIcon
               icon={faPlus}
@@ -51,24 +51,15 @@ const Mobile = ({ className }) => {
             />
           </div>
         </div>
-        {/* <Slider
-      barClassName='mt-2'
-      tooltip={false}
-      min={0}
-      max={185}
-      step={1}
-      value={sliderValue}
-      onChange={handleSliderChange}
-      /> */}
         <div className="relative mt-2 rounded border-2">
           <div className="absolute top-[-6px] size-3 rounded-full border-2 bg-white"></div>
         </div>
         <div className="mt-2 flex justify-between">
           <div className="text-white">
-            0:01{/* {formatTime(sliderValue[0])} */}
+            0:01
           </div>
           <div className="text-white">
-            3:05{/* {formatTime(sliderValue[1])} */}
+            3:05
           </div>
         </div>
         <div className="relative flex items-center justify-between text-white">

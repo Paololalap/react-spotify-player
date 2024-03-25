@@ -1,7 +1,7 @@
 const ProfileButton = () => {
   return (
     <button className="group hidden sm:relative sm:inline-block">
-      <div className="hidden sm:relative sm:block sm:size-[2.1rem] sm:cursor-pointer sm:rounded-full sm:border-solid sm:bg-black sm:bg-opacity-50 sm:p-2 sm:hover:scale-110">
+      <div className="hidden sm:relative sm:block sm:size-[2.1rem] sm:cursor-pointer sm:rounded-full sm:border-solid sm:bg-black sm:bg-opacity-50 sm:p-2 sm:hover:scale-110 sm:group-hover:bg-opacity-65">
         <div className="hidden sm:absolute sm:left-1/2 sm:top-1/2 sm:block sm:size-[1.64rem] sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-full sm:border-solid sm:bg-violet-400 sm:p-2 sm:text-center sm:font-bold  sm:leading-[.63rem] sm:text-black">
           P
         </div>
